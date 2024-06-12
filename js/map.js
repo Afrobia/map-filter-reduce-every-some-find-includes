@@ -41,9 +41,16 @@ const celsius = fahrenheit.map( (elem) => {
 */
 
 /*////////////////////////////////////////////////////////////////////////
-Filter()
-
+filter()
+Quando necessário remover alguns elementos indesejados 
+com base eu algumas condições
 ///////////////////////////////////////////////////////////////////////////*/
 
+const yetAnotherArray = [ 2 ,3 ,4 ,2 ,5 ,9 ,6 ,3 ];
+
+const uniqueArray = yetAnotherArray.filter((elem, index, arr) => arr.indexOf( elem) === index) 
+// eliminar valores repetidos
+
+//console.log(uniqueArray)
 
 
