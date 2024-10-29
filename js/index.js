@@ -20,10 +20,6 @@ const celcius = fahrenheit.map( elem => Math.round( ( elem - 32 ) * 5/9 ) )
 
 // console.log( celcius )
 
-
-
-
-
 /* ==========================================================================
    filter()
    ========================================================================== */
@@ -33,10 +29,6 @@ const yetAnotherArray = [ 2, 3, 4, 5, 4, 12, 19, 7, 2, 5 ]
 const uniqueArray = yetAnotherArray.filter( ( elem, index, arr ) => arr.indexOf( elem ) === index)
 
 // console.log( uniqueArray )
-
-
-
-
 
 /* ==========================================================================
    reduce()
@@ -54,11 +46,7 @@ const rockets = [
 const totalLaunches = rockets.reduce( ( prevVal, elem ) => prevVal + elem.launches, 0 )
 
 // console.log( totalLaunches )
-
-
-
-
-
+  
 /* ==========================================================================
    every()
    ========================================================================== */
@@ -81,11 +69,7 @@ const tchurma = [
 ]
 
 // console.log( tchurma.every( p => p.age >= 18 ) )
-
-
-
-
-
+  
 /* ==========================================================================
    some()
    ========================================================================== */
@@ -119,10 +103,6 @@ const team = [
 
 // console.log( team.some( person => person.pilot ) )
 
-
-
-
-
 /* ==========================================================================
    find()
    ========================================================================== */
@@ -154,10 +134,6 @@ const foundFruit = fruits.find( fruit => fruit.name === "cereja" )
 
 // console.log( foundFruit )
 
-
-
-
-
 /* ==========================================================================
    includes()
    ========================================================================== */
@@ -172,10 +148,6 @@ const people = [
 const filteredUsers = people.filter( p => p.name.includes( "au" ) )
 
 // console.log( filteredUsers )
-
-
-
-
 
 /* ==========================================================================
    API real!
